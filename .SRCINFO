@@ -1,0 +1,20 @@
+pkgbase = brother-dcpl2640dw
+	pkgdesc = CUPS and LPR drivers for the Brother DCP-L2640DW
+	pkgver = 4.1.0_1
+	pkgrel = 1
+	url = https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=dcpl2640dw_us_as&os=127
+	install = brother-dcpl2640dw.install
+	arch = x86_64
+	arch = i686
+	license = GPL-2.0-only
+	license = custom:Brother EULA
+	depends = cups
+	depends = perl
+	source = fix-setupPrintcap.diff
+	source = brprintconflsr3_DCPL2640DW
+	source = https://download.brother.com/welcome/dlf106025/dcpl2640dwpdrv-4.1.0-1.i386.rpm
+	sha256sums = 13ee5b477f1b71e5031e389583852333f69cf218c5bdee0ba30314929117598b
+	sha256sums = 3365c96162ca03866b1a5fc7d8340d9282447d1af4f417adc194898cbbfcff81
+	sha256sums = 0b476e240296deeb0c8135ad0105233f6b93522fa3a4ae85088a175ed3463992
+
+pkgname = brother-dcpl2640dw
